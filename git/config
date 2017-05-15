@@ -1,0 +1,19 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "handLineProject"]
+	url = https://github.com/Tentenism/MyHandLine.git
+	fetch = +refs/heads/*:refs/remotes/handLineProject/*
+[remote "github"]
+	url = https://github.com/Tentenism/MyHandLine1.git
+	fetch = +refs/heads/*:refs/remotes/github/*
+[gui]
+	wmstate = normal
+	geometry = 824x435+25+25 179 196
+[remote "github1"]
+	url = https://github.com/Tentenism/MyHandLine2.git
+	fetch = +refs/heads/*:refs/remotes/github1/*
